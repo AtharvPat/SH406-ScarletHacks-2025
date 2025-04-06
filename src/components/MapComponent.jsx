@@ -87,7 +87,7 @@ const MapComponent = () => {
   const autocompleteRef = useRef(null);
 
   const { isLoaded } = useJsApiLoader({
-    googleMapsApiKey: "put here you API key",
+    googleMapsApiKey: "AIzaSyBGHQtmByBeHzA8d-Vlw5iF2hr2C5xj604",
     libraries: ["places"],
   });
 
@@ -318,7 +318,7 @@ const MapComponent = () => {
             tilt: 0,
             heading: 0,
             disableDefaultUI: false,
-            mapTypeControl: false,
+            mapTypeControl: true,
             streetViewControl: false,
             fullscreenControl: true,
           }}
